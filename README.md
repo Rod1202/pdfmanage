@@ -39,7 +39,26 @@ Una vez que instales estas dependencias y Poppler, estarás listo para usar las 
 Para crear un ejecutable, siga los siguientes pasos: 
 
 
-1. pip install pyinstaller
+
+1. Instalar PyInstaller
+
+Asegúrate de tener PyInstaller instalado en tu entorno de Python. Puedes instalarlo con:
+
+pip install pyinstaller
 
 
-2. pyinstaller --onefile --noconsolemanagePDF.py
+
+
+2. Crear el ejecutable
+
+Abre la terminal en Visual Studio Code y navega hasta la carpeta donde está tu archivo Python. Luego, ejecuta el siguiente comando:
+
+pyinstaller --onefile --noconsole managePDF.py
+
+
+
+3. Ubicación del ejecutable
+
+Después de ejecutar el comando, PyInstaller generará una carpeta llamada dist. Dentro de esta carpeta encontrarás tu ejecutable (managePDF.exe).
+
+
